@@ -1,0 +1,17 @@
+{
+  "name": "bus-booking-backend",
+  "version": "1.0.0",
+  "description": "Bus ticket booking system API",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx -y node@22 server.js",
+    "dev": "npx -y node@22 --watch server.js",
+    "seed": "npx -y node@22 seed.js",
+    "reseed": "npx -y node@22 reseed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
